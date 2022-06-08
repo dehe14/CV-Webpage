@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&display=swap');
+body{
+    width: 100%;
+    margin: 0;
+    font-family: 'Khula', sans-serif;
+}
+.smurf{
+    color:#005889;
+}
+
+section{
+    width: 70vw;
+    margin: auto;
+    margin-top: 3%;
+}
+
+h1{
+    font-size: 3vw;
+    margin-bottom: 0;
+}
+
+h3{
+    font-size:1.5vw ;
+    color: #005889;
+    margin: 0.5vw;
+}
+
+ul{
+    margin-top: 0.5vw;
+    list-style-type: none;
+}
+
+li{
+    margin: 0.4vw 0;
+}
+
+ul li:first-child{
+    list-style-type:disc;
+    font-weight: bold;
+}
+
+section p,section li{
+    font-size: 1vw;
+}
+
+/*  TOP PAGE BLUE BAR   */
+
+header{
+    height: 0.4vw;
+    background-color: #005889;
+}
+
+
+
+                                                /*  NAME AND CONTACT INFO   */
+
+.section-persinfo{
+    padding-left: 2%;
+    border-bottom: 0.1vw solid black;
+}
+
+.section-persinfo p{
+    margin-left: 1vw;
+    margin: 0.1vw 0.1vw 0.1vw 3vw;
+}
+
+
+
+                                                        /* OBJECTIVES */
+
+
+.section-objective p{
+    margin: 0.1vw 0.1vw 0.1vw 1.5vw;
+}
+
+
+                                                        /* EDUCATION  */
+
+.section-skills ul li:first-child{
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+.section-skills ul {
+    display:inline-block;
+
+}
